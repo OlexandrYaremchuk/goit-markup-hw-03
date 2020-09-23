@@ -41,11 +41,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .container-flax-header {
   display: flex;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid #ececec;
   /* justify-content: center; */
 }
 
@@ -70,8 +72,8 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .navigation-list {
   display: flex;
@@ -133,7 +135,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
-  margin-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 .hero {
   height: 600px;
@@ -179,7 +181,8 @@ body {
 /* ---------ADVANTAGES----------- */
 .advantages-container {
   display: flex;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .advantages-list {
   display: flex;
@@ -216,13 +219,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-theme-color);
 
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .work-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .work-img:not(:last-child) {
   margin-right: 30px;
@@ -263,7 +266,7 @@ body {
 .team-img {
   width: 270px;
   height: 260px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .team.subtitle {
   font-family: var(--main-font);
@@ -274,7 +277,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-theme-color);
-  /* display: block; */
+  padding-bottom: 10px;
 }
 
 .team-desc {
@@ -286,8 +289,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--subtitle-theme-color);
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: 0px;
 }
 /* --------------AND TEAM------------------- */
 /* ----------------FOOTER------------------- */
@@ -343,7 +347,7 @@ body {
 
 .portfolio-hero {
   /* display: flex; */
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .portfolio-list {
   display: flex;
@@ -393,6 +397,11 @@ body {
 .project-list-item:nth-child(3n) {
   margin-right: 0px;
 }
+.project-title,
+.project-desc {
+  padding-right: 24px;
+  padding-left: 24px;
+}
 .project-title {
   font-family: var(--main-font);
   font-style: normal;
@@ -401,7 +410,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-theme-color);
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }
 .project-desc {
   font-family: var(--main-font);
@@ -411,8 +420,8 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--subtitle-theme-color);
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .project-img {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
