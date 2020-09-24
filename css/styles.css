@@ -132,10 +132,8 @@ body {
 
 /* --------------- HERO-------------------- */
 .container-hero {
-  margin-left: auto;
-  margin-right: auto;
-  background: #2f303a;
-  /* padding-bottom: 94px; */
+  background-color: #2f303a;
+  padding-bottom: 94px;
 }
 .hero {
   height: 600px;
@@ -152,7 +150,7 @@ body {
   text-transform: uppercase;
   color: var(--address-dark-theme-color);
   margin-top: 0px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   padding-top: 200px;
 }
 .hero-button {
@@ -250,7 +248,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-theme-color);
   padding-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .team-list {
@@ -300,7 +298,7 @@ body {
 }
 .footer-logo {
   padding-top: 60px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   margin-top: 0px;
 }
 .footer-logo-one {
